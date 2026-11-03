@@ -1,0 +1,10 @@
+Semdok Design Review
+Copyright 2026 Semdok
+
+This plugin includes the Elephant-Goldfish Model (EGM), https://github.com/google/elephant-goldfish-model,
+Copyright 2026 Google LLC, licensed under the Apache License, Version 2.0 (see LICENSE).
+Vendored from commit 5ba5afa03f62627639fa4f71b7ac3bd4d8d07e24: the files under egm/agents, egm/resources and
+egm/docs, and the SKILL.md and references files under egm/skills, are unchanged. egm/docs/semdok.md was added
+by Semdok. When a skill is loaded, index.js replaces its Codex and Claude Code integration pointers with a pointer
+to egm/docs/semdok.md and resolves the plugin root placeholder.
+EGM is not an officially supported Google product, and this plugin is not affiliated with or endorsed by Google.

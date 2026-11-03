@@ -1,0 +1,39 @@
+{
+  "name": "semdok-egm",
+  "version": "0.1.0",
+  "description": "Semdok Harness plugin: brainstorm, draft and review design documents with Google's Elephant-Goldfish Model (fresh-context reviewer agents)",
+  "type": "module",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "egm",
+    "cordis.patch.yml",
+    "icon.svg",
+    "README.md",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "license": "Apache-2.0",
+  "keywords": [
+    "semdok-harness",
+    "dsh-plugin",
+    "semdok",
+    "egm",
+    "design-review",
+    "spec",
+    "multi-agent"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "dsh": ">=1.0.0 <2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Semdok/semdok-egm.git"
+  },
+  "homepage": "https://github.com/Semdok/semdok-egm#readme"
+}

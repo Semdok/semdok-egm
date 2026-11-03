@@ -1,0 +1,4 @@
+# Adds the Elephant-Goldfish Model skills: /egm-brainstorm, /egm-draft, /egm-review and the rest.
+- insert:
+    - id: semdok-egm
+      name: semdok-egm
