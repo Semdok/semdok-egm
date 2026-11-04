@@ -12,9 +12,9 @@ Plan a feature before writing code:
 
 In Semdok Harness, either:
 
-- **Plugins → Discover**, with the Semdok Plugins market
+- **Skills Hub → Explore** (**Plugins → Discover** before 1.2), with the Semdok Plugins market
   (`https://raw.githubusercontent.com/YumnamMomojit/Plugins/main/index.json`), then **Install** on *Design Review*; or
-- **Plugins → Add plugin**, and enter `github:Semdok/semdok-egm#main`.
+- **Skills Hub → Add skill pack** (**Plugins → Add plugin** before 1.2), and enter `github:Semdok/semdok-egm#main`.
 
 Then click **Enable now**.
 
@@ -41,7 +41,7 @@ For example:
 Approved designs go to `docs/designs/` in your project. To keep EGM's files somewhere else, add a line
 `EGM artifact directory: <folder>` to your message or to `AGENTS.md`.
 
-With the [Agent Team](https://github.com/YumnamMomojit/Plugins/tree/main/plugins/semdok-agent-team) plugin and **Orchestrator mode**, the reviewers run as **Team Reviewer**
+With the [Agent Team](https://github.com/YumnamMomojit/Plugins/tree/main/plugins/semdok-agent-team) plugin and **Team mode**, the reviewers run as **Team Reviewer**
 specialists, which can read files but not change them.
 
 ## Good to know

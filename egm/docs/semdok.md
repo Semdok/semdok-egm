@@ -31,7 +31,7 @@ reviewer is a general subagent that reads its persona file first. Each call must
 
 - Start a **new** subagent for each independent review. Never reuse or continue an earlier reviewer.
 - Set `cwd` to the user's working directory.
-- When the tool lists an `agent_preset` named `team-reviewer` (Agent Team plugin, Orchestrator mode), set
+- When the tool lists an `agent_preset` named `team-reviewer` (Agent Team plugin, Team mode), set
   `agent_preset: team-reviewer`; it can read files but cannot edit them. Otherwise omit `agent_preset`.
 - Use a self-contained `prompt`, because the subagent sees none of this conversation. Begin it with:
 

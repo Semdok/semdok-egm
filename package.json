@@ -1,6 +1,6 @@
 {
   "name": "semdok-egm",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Semdok Harness plugin: brainstorm, draft and review design documents with Google's Elephant-Goldfish Model (fresh-context reviewer agents)",
   "type": "module",
   "main": "index.js",
